@@ -7,7 +7,7 @@ export function errorHandler(err, req, res, next) {
         exito: false,
         error: {
             codigo: codigoEstado,
-            mensaje: mensajeREspuesta
+            mensaje: mensajeRespuesta
         }
     });
 }
